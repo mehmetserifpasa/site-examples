@@ -98,7 +98,7 @@ body {
     height: 600px;
     margin: 55px 350px ;
     border-radius: 20px;
-    background-image: url('/img/robot3.jpg');
+    background-image: url('/blog/img/robot3.jpg');
     background-size: cover;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.205);
 }
@@ -147,7 +147,7 @@ body {
     margin-top: 130px;
     margin-left: 150px;
     z-index: 0;
-    background-image: url('/img/hack3.jpg');
+    background-image: url('/blog/img/hack3.jpg');
     background-size: cover;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.205);
     filter: blur(2px);
@@ -162,7 +162,7 @@ body {
     margin-top: 130px;
     margin-left: 1380px;
     z-index: 0;
-    background-image: url('/img/sokak.jpg');
+    background-image: url('/blog/img/sokak.jpg');
     background-size: cover;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.205);
     filter: blur(1px);
@@ -176,7 +176,7 @@ body {
     border-bottom-right-radius: 20px;
     margin-top: 130px;
     margin-left: 0px;
-    background-image: url('/img/bina.jpg');
+    background-image: url('/blog/img/bina.jpg');
     background-size: cover;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.205);
     filter: blur(1px);
@@ -190,7 +190,7 @@ body {
     border-bottom-left-radius: 20px;
     margin-top: 130px;
     margin-left: 1725px;
-    background-image: url('/img/bina.jpg');
+    background-image: url('/blog/img/bina.jpg');
     background-size: cover;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.205);
     filter: blur(1px);
