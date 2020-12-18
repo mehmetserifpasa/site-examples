@@ -81,7 +81,7 @@ body {
 }
 
 .main-menu-backgorund-image {
-    background-image: url('/img/background-menu.jpg');
+    background-image: url('/blog/img/background-menu.jpg');
     filter: blur(6px);
     background-size: cover;
     width: 100%;
@@ -377,7 +377,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/coding3.jpg');
+    background-image: url('/blog/img/table/coding3.jpg');
     background-size: cover;
 }
 
@@ -387,7 +387,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/kule.jpg');
+    background-image: url('/blog/img/table/kule.jpg');
     background-size: cover;
 }
 
@@ -397,7 +397,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/evren.jpg');
+    background-image: url('/blog/img/table/evren.jpg');
     background-size: cover;
 }
 
@@ -407,7 +407,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/tekno.jpg');
+    background-image: url('/blog/img/table/tekno.jpg');
     background-size: cover;
 }
 
@@ -417,7 +417,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/coding2.jpg');
+    background-image: url('/blog/img/table/coding2.jpg');
     background-size: cover;
 }
 
@@ -571,7 +571,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/robot2.jpg');
+    background-image: url('/blog/img/table/robot2.jpg');
     background-size: cover;
 }
 
@@ -581,7 +581,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/fantastic.jpg');
+    background-image: url('/blog/img/table/fantastic.jpg');
     background-size: cover;
 }
 
@@ -591,7 +591,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/hack2.jpg');
+    background-image: url('/blog/img/table/hack2.jpg');
     background-size: cover;
 }
 
@@ -601,7 +601,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/coding4.jpg');
+    background-image: url('/blog/img/table/coding4.jpg');
     background-size: cover;
 }
 
@@ -611,7 +611,7 @@ body {
     height: 320px;
     border-radius: 10px;
     margin-left: 28px;
-    background-image: url('/img/table/pc.jpg');
+    background-image: url('/blog/img/table/pc.jpg');
     background-size: cover;
 }
 
