@@ -3,555 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>MSPasa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="navigation">
+                
+                <span><a class="nav-logo" href="index.html">MSPasa</a></span>
 
-    <!-- HEADER SECTION -->
-    <header>
-        
-        <div class="header-section">
+                <nav class="nav-box">
+                    
+                    <a href="#" class="toggle-button" onclick="toggles()">
+                        <span class="toggle-button__bar"></span>
+                        <span class="toggle-button__bar"></span>
+                        <span class="toggle-button__bar"></span>
+                    </a>  
+                    
+                    <a href="#" class="nav-box__item">Ana Sayfa</a>
+                    <a href="#" class="nav-box__item">Python</a>
+                    <a href="#" class="nav-box__item">Güvenlik</a>
+                    <a href="#" class="nav-box__item">Bilim</a>
+                    <a href="#" class="nav-box__item">Diğer</a>
+                    <a href="#" class="nav-box__item">İletişim</a>
+                
+                </nav>
 
-            <div class="header-icon">
-                <a href="#"><img src="img/logo4.png" alt="logo"></a>
             </div>
-
-            <div class="header-main-menu">
-                <div class="header-main-nav-menu">
-                    <nav class="header-nav">
-                        <a href="">Home</a>
-                        <a href="">Hack</a>
-                        <a href="">Security</a>
-                        <a href="">Code</a>
-                        <a href="">About</a>
-                    </nav>
-                </div>
-            </div>
-
         </div>
     </header>
+ 
 
-
-    <!-- MAİN SECTION -->
     <main>
+        <section class="hero">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <div class="col-12 hero-bg">
+                        <h1 class="hero__title">
+                            Gerçekliği yazılımla özdeşleştirmek.
+                        </h1>
 
-        <h1 class="main-h1-text">
-            Hack, Python, Html, CSS, Security, Bug Bounty and more
-        </h1>
+                        <a class="hero__link" href="#">
+                            Daha fazla bilgi <span class="hero__link--ok"> > </span>
+                        </a>
 
-        <div class="main-menu">
-            
-            <div class="main-menu-backgorund-image"></div>
-            
-            <div class="main-menu-image"></div>
-            
-            <div class="main-menu-image-text">
-                
-                <h3 class="main-menu-h6-title">
-                    A Window to the Future!
-                </h3>
-                
-                <hr class="main-menu-hr">
-                
-                <p class="main-menu-p-text">
-                    Ut varius eleiffaucibus velit velend mollis. Duis sollicitudin sem at magna semper, et gravida dfaucibus velit velui malesuada. Cras efficitur purus velit. Curabitur sit amet ornare lorem. Suspendisse ffaucibus velit veleugiat luctus placerat. Sed eget dapibus sapien. Donec gravfaucibus velit velida id diam non sodales. Aliquam sed nisl urna. Aliquam non dui convallis, faucibus velit vel, pharetra erat. Curabitur in tortor gravida nUt varius eleifend mollis. Duis sollicitudin sem at magna semper, et gravida dui malesuada. Cras efficitur purus velit. Curabitur sit amet ornare lorem. Suspendisse feugiat luctus placerat. Sed eget get dapibus sapien. Donec gravida id diam get dapibus sapien. Donec gravida id diam get dapibus sapien. Donec gravida id diam get dapibus sapien. Donec gravida id diam get dapibus sapien. Donec gravida id diam dapibus sapien. Donec gravida id diam non sodales. Aliquam sed nisl urna. Aliquam non dui convallis, faucibus velit vel, pharetra erat. Curabitur in tortor gravida nisl auctor porta.isl auctor porta.
-                </p>
+                        <div class="hero__box">
+                            <img class="hero__box--img" src="img/robot.png" alt="HERO IMAGE">
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+        </section>
 
-            <div class="main-menu-design-image"></div>
-            <div class="main-menu-design-image-two"></div>
-            <div class="main-menu-design-image-three"></div>
-            <div class="main-menu-design-image-fore"></div>
-            
-            <div class="main-menu-mainButton">
-                <a href="#"><h6>İncele</h6></a>
+        <section class="window">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        
+                        <div class="window-box box-one">
+                            <a class="box-link" href="#">
+                                <h3 class="window-box__title">Kodlama</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="window-box box-two">
+                            <a class="box-link" href="#">
+                                <h3 class="window-box__title">Bilim</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="window-box box-three">
+                            <a class="box-link" href="#">
+                                <h3 class="window-box__title">Diğer</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="window-box box-fore">
+                            <a class="box-link" href="#">
+                                <h3 class="window-box__title">Güvenlik</h3>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+        </section>
 
-        </div>
-
-
-        <!-- Main Middle Section -->
-        <div class="main-middle-title">
-            
-            <div class="main-middle-text">
-                <h6 class="main-middle-text-h6">Discover</h6>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="content__title">Değişen dünya</h2>
+                        <h3 class="content__desc">Sen neresindesin?</h3>
+                        <a class="content__link" href="#">Daha fazla oku</a>
+                        <div class="content-box">
+                            <img class="content__img" src="/img/content.png" alt="EARTH">
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="main-middle-nav">
-                <nav class="main-middle-nav-section">
-                    <a href="">Random</a>
-                    <a href="">Popular</a>
-                    <a href="">Recent</a>
-                </nav>
-            </div>
-            
-            
-            <div class="main-middle-search">
-                <img src="/img/buyutec3.png" class="main-middle-search-logo">
-                <input class="main-middle-search-input" placeholder="Search Something here ...">
-            </div>
-        </div>
+        </section>
 
-
-
-        <div class="main-middle-menu">
-            
-            <div class="main-middle-menu-head">
-                
-                
-                <div class="main-middle-head-tb1">
-                    <a href="">
-                    <div class="head-tb1-logo"></div>
-                    <div class="head-tb1-date">
-                        <h6>2020 / September</h6>
-                    </div>
-                    <div class="head-tb1-info">
-                        <h6>Paper Towns</h6>
-                    </div>
-                    </a>
-                </div>
-                
-                
-                <div class="main-middle-head-tb2">
-                    <a href="">
-                    <div class="head-tb2-logo"></div>
-                    <div class="head-tb2-date">
-                        <h6>2020 / January</h6>
-                    </div>
-                    <div class="head-tb2-info">
-                        <h6>magna risus</h6>
-                    </div>
-                    </a>
-                </div>
-                
-                <div class="main-middle-head-tb3">
-                    <a href="">
-                    <div class="head-tb3-logo"></div>
-                    <div class="head-tb3-date">
-                        <h6>2020 / March</h6>
-                    </div>
-                    <div class="head-tb3-info">
-                        <h6>pellentesque</h6>
-                    </div>
-                    </a>
-                </div>
-                
-                <div class="main-middle-head-tb4">
-                    <a href="">
-                    <div class="head-tb4-logo"></div>
-                    <div class="head-tb4-date">
-                        <h6>2020 / March</h6>
-                    </div>
-                    <div class="head-tb4-info">
-                        <h6>feugiat faucibus</h6>
-                    </div>
-                    </a>
-                </div>
-                
-                <div class="main-middle-head-tb5">
-                    <a href="">
-                    <div class="head-tb5-logo"></div>
-                    <div class="head-tb5-date">
-                        <h6>2020 / July</h6>
-                    </div>
-                    <div class="head-tb5-info">
-                        <h6>nunc mauris</h6>
-                    </div>
-                    </a>
-                </div>
-
-            </div>
-
-
-
-            <div class="main-middle-menu-bar">
-                
-                <div class="menu-middle-tb1">
-                    <a href="">
-                    <div class="menu-tb1-logo"></div>
-                    <div class="menu-tb1-date">
-                        <h6>2020 / June</h6>
-                    </div>
-                    <div class="menu-tb1-info">
-                        <h6>Nulla malesuada</h6>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="menu-middle-tb2">
-                    <a href="">
-                    <div class="menu-tb2-logo"></div>
-                    <div class="menu-tb2-date">
-                        <h6>2020 / June</h6>
-                    </div>
-                    <div class="menu-tb2-info">
-                        <h6>eros a ipsum finibus</h6>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="menu-middle-tb3">
-                    <a href="">
-                    <div class="menu-tb3-logo"></div>
-                    <div class="menu-tb3-date">
-                        <h6>2017 / April</h6>
-                    </div>
-                    <div class="menu-tb3-info">
-                        <h6>Proin convallis</h6>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="menu-middle-tb4">
-                    <a href="">
-                    <div class="menu-tb4-logo"></div>
-                    <div class="menu-tb4-date">
-                        <h6>2020 / November</h6>
-                    </div>
-                    <div class="menu-tb4-info">
-                        <h6>molestie hendrerit</h6>
-                    </div>
-                    </a>
-                </div>
-
-                <div class="menu-middle-tb5">
-                    <a href="">
-                    <div class="menu-tb5-logo"></div>
-                    <div class="menu-tb5-date">
-                        <h6>2019 / December</h6>
-                    </div>
-                    <div class="menu-tb5-info">
-                        <h6>Cras mattis placerat </h6>
-                    </div>
-                    </a>
-                </div>
-                
-            </div>
-
-        </div>
-
-    
     </main>
 
-    <!-- FOOTER SECTION -->
-    <footer>
-        <div class="footer-main">
-           
-            <div class="footer-head-box">
-                
-                <div class="footer-head-title-fame">
-                    <h6 class="ft-head-fame-h6">Hall Of Fame</h6>
-                </div>
-                
-                <div class="footer-head-title-news">
-                    <h6 class="ft-head-news-h6">News</h6>
-                </div>
-
-            </div>
-
-            <div class="footer-body-box">
-                
-                <div class="footer-body-top">
-                    
-                    <div class="footer-body-top-box-one">
-                        
-                        <div class="top-box-name">
-                            <h6 class="top-box-name-h6">Top Reviewers</h6>
-                        </div>
-                        
-                        <div class="top-box-see">
-                            <h6 class="top-box-see-h6">See All</h6>
-                        </div>
-                        
-                        <div class="top-box-main-section">
-                            
-                            <div class="top-box-name-section">
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face1.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Sonja Brooks</p>
-                                    </div>
-
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face2.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Mitchell Conner</p>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face3.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Clifton Franklin</p>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face4.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Lucy Griffith</p>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face5.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Hazel Cohen</p>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face6.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Carlos George</p>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-name-person-one">
-                                    
-                                    <div class="top-box-name-icon">
-                                        <img class="top-box-name-icon-face" src="/img/face/face7.jpeg" alt="face">
-                                    </div>
-                                    
-                                    <div class="top-box-name-name">
-                                        <p class="top-box-name-person">Carol Mcbride</p>
-                                    </div>
-                                
-                                </div>
-                            
-                            </div>
-                            
-                            <div class="top-box-see-section">
-                                
-                                <div class="top-box-see-person-one">
-                                    
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">4713</h6>
-                                    
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">4654</h6>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">4358</h6>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">4002</h6>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">3998</h6>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">3991</h6>
-                                    </div>
-                                
-                                </div>
-                                
-                                <div class="top-box-see-person-one">
-                                
-                                    <div class="top-box-see-review">
-                                        <h6 class="top-box-see-number">3888</h6>
-                                    </div>
-                                
-                                </div>
-                            
-                            </div>
-                        
-                        </div>
-
-                    </div>
-                
-                </div>
-                
-                <div class="footer-body-view">
-                    <div class="footer-body-main">
-                        
-                        <div class="footer-body-view-top">
-
-                            <div class="footer-view-image">
-                                <img class="footer-view-image-label" src="/img/bottom/bottom9.jpg" alt="Image-Main">
-                            </div>
-                            
-                            <div class="footer-view-content">
-                                
-                                <div class="footer-view-content-text">
-
-                                    <p class="footer-view-content-date">
-                                        <b>2</b> Hourse Ago / <b>by</b> Yogo
-                                    </p>
-                               
-                                </div>
-                               
-                                <div class="footer-view-content-text">
-                               
-                                    <p class="footer-view-content-title">
-                                        'Suicide Squad' Is a Hit, But DC Needs to Start Making Better Movies
-                                    </p>
-                               
-                                </div>
-                               
-                                <div class="footer-view-content-text footer-ct-widht">
-                               
-                                    <p class="footer-view-content-information">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolore dignissimos odit delectus maiores recusandae suscipit perspiciatis quaerat cumque voluptatum. Dignissimos repellat deserunt neque ipsum quo exercitationem ex laudantium quaerat!Architecto necessitatibus reiciendis officia incidunt totam rerum aperiam veniam, repellat molestiae dolores, culpa facere ut esse quae omnis cumque? Possimus molestiae iusto adipisci vero beatae repudiandae nemo unde dolores voluptatem!
-                                    </p>
-                               
-                                </div>
-
-                                <div class="footer-view-content-button">
-                                    <a href="">
-                                    <h6 class="footer-vc-button-text">Read Full Article</h6>
-                                    </a>
-                                </div>
-                            
-                            </div>
-
-                        </div>
-                        
-                        <div class="footer-body-view-bottom">
-                            
-                            <div class="footer-body-bottom-section">
-                                
-                                <div class="footer-bottom-image">
-                                    <img class="ft-bt-image" src="/img/bottom/bottom12.jpg">
-                                </div>
-                                
-                                <div class="footer-bottom-date">
-                                    <p class="ft-bt-date">4 Hours Ago / by Rob</p>
-                                </div>
-                                
-                                <div class="footer-bottom-info">
-                                    <p class="ft-bt-info">Nesto Lapre Trailer Is Coming Very Master</p>
-                                </div>
-                            
-                            </div>
-
-                            <div class="footer-body-bottom-section">
-                                
-                                <div class="footer-bottom-image">
-                                    <img class="ft-bt-image" src="/img/bottom/bottom10.jpg">
-                                </div>
-                                
-                                <div class="footer-bottom-date">
-                                    <p class="ft-bt-date">4 Hours Ago / by Rob</p>
-                                </div>
-                                
-                                <div class="footer-bottom-info">
-                                    <p class="ft-bt-info">Parasto lesta en moake cane joe zone</p>
-                                </div>
-                            
-                            </div>
-
-                            <div class="footer-body-bottom-section">
-                                
-                                <div class="footer-bottom-image">
-                                    <img class="ft-bt-image" src="/img/bottom/bottom14.jpg">
-                                </div>
-                                
-                                <div class="footer-bottom-date">
-                                    <p class="ft-bt-date">4 Hours Ago / by Rob</p>
-                                </div>
-                                
-                                <div class="footer-bottom-info">
-                                    <p class="ft-bt-info">Why to lastmozitayion post si go suicidas squliber hamse edna</p>
-                                </div>
-                            
-                            </div>
-
-                            <div class="footer-body-bottom-section">
-                                
-                                <div class="footer-bottom-image">
-                                    <img class="ft-bt-image" src="/img/bottom/bottom15.jpg">
-                                </div>
-                                
-                                <div class="footer-bottom-date">
-                                    <p class="ft-bt-date">4 Hours Ago / by Rob</p>
-                                </div>
-                                
-                                <div class="footer-bottom-info">
-                                    <p class="ft-bt-info">Nesto Lapre Trailer Is Coming Very Master</p>
-                                </div>
-                            
-                            </div>
-
-
-                                
-                            
-                        
-                        </div>
-
-                    </div>
-                </div>
-                
-            </div>
-
-
-            <div class="end">
-                <p>HANDCRAFTED BY mehmetserifpasa</p>
-            </div>
+<footer class="bg-light text-center text-lg-start footer">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
         </div>
-    </footer>
 
 
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sosyal Medya</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.linkedin.com/in/mehmetserifpasa/" class="text-dark">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC3UtP95EZDsuNHcG3VKReiA" class="text-dark">Youtube</a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">Twitter</a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">instagram</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright
+    </div>
+
+  </footer>
 </body>
 </html>
