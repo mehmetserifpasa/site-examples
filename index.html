@@ -3,117 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSPasa</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Güncel Giyim</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <script src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="navigation">
-                
-                <span><a class="nav-logo" href="index.html">MSPasa</a></span>
 
-                <nav class="nav-box">
-                    
-                    <a href="#" class="toggle-button" onclick="toggles()">
-                        <span class="toggle-button__bar"></span>
-                        <span class="toggle-button__bar"></span>
-                        <span class="toggle-button__bar"></span>
-                    </a>  
-                    
-                    <a href="#" class="nav-box__item">Ana Sayfa</a>
-                    <a href="#" class="nav-box__item">Python</a>
-                    <a href="#" class="nav-box__item">Güvenlik</a>
-                    <a href="#" class="nav-box__item">Bilim</a>
-                    <a href="#" class="nav-box__item">Diğer</a>
-                    <a href="#" class="nav-box__item">İletişim</a>
-                
+    <header class="header-box">
+        <div class="container">
+            <div class="header">
+                <a href="#" style="text-decoration: none;">
+                    <span class="header__logo">GÜNCEL</span>
+                </a>
+
+                <nav class="nav" id="nav__item">
+                    <a href="#" class="nav__items">Erkek</a>
+                    <a href="#" class="nav__items">Kadın</a>
+                    <a href="#" class="nav__items">Çorap</a>
+                    <a href="#" class="nav__items">İç Giyim</a>
+                    <a href="#" class="nav__items">İletişim</a>
                 </nav>
+
 
             </div>
         </div>
     </header>
- 
 
     <main>
+        
         <section class="hero">
+            <div class="container circle">
+                <div class="herobox">
+                    <h3 class="hero__title">2021 MODASI</h2>
+                    <h2 class="hero__title--main">YENİ KOLEKSİYON</h2>
+                    <h3 class="hero__title--two">Senin İçin Mükemmel Stili Bul</h3>
+                    <a class="button" href="#">Şimdi Satın Al</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-title bottom-height">
+            <div class="container">
+                <h3 class="s-title__title">Moda & Vitrin</h3>
+            </div>
+        </section>
+
+        <section class="redirect">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row redirect-box">
                     
-                    <div class="col-12 hero-bg">
-                        <h1 class="hero__title">
-                            Gerçekliği yazılımla özdeşleştirmek.
-                        </h1>
+                    
+                    <div class="col-12 col-md-12 col-lg-3">
+                        <div class="row">
+                            <div class="col-12 redirect-loc redirect-one scale">
+                                <a href="#" class="button">Gömlekler</a>
+                            </div>
 
-                        <a class="hero__link" href="#">
-                            Daha fazla bilgi <span class="hero__link--ok"> > </span>
-                        </a>
-
-                        <div class="hero__box">
-                            <img class="hero__box--img" src="img/robot.png" alt="HERO IMAGE">
+                            <div class="col-12 redirect-loc redirect-two scale">
+                                <a href="#" class="button">Pantolonlar</a>
+                            </div>
                         </div>
-
                     </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 redirec-three scale">
+                        <a href="#" class="button">Montlar</a>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-3">
+                        <div class="row">
+                            <div class="col-12 redirect-loc redirect-fore scale">
+                                <a href="#" class="button">Sweatshirt</a>
+                            </div>
+
+                            <div class="col-12 redirect-loc redirect-five scale">
+                                <a href="#" class="button">Çorap&Diğer</a>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </section>
 
-        <section class="window">
+        <section class="section-title">
+            <div class="container">
+                <h3 class="s-title__title">En Çok Satılanlar</h3>
+                <h5 class="s-title__desc">Fırsatlar kaçmadan hemen incele</h3>
+            </div>
+        </section>
+
+        <section class="populer">
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-12 col-md-6 col-lg-6">
-                        
-                        <div class="window-box box-one">
-                            <a class="box-link" href="#">
-                                <h3 class="window-box__title">Kodlama</h3>
-                            </a>
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-3 populer-box">
+                        <figure class="populer__img">
+                            <img src="/img/populer/populer5.png" alt="POPULER-1">
+                        </figure>
+
+                        <span class="populer__title">Paksoy Gömlek</span>
+                        <span class="populer__color">(Kırmızı)</span>
+                        <span class="populer__price">99,99 TL</span>
+
+                        <a href="https://www.trendyol.com/sr?mid=197714&pi=3" class="price" target="_blank" rel="noopener noreferrer">
+                            Satın Al
+                        </a>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="window-box box-two">
-                            <a class="box-link" href="#">
-                                <h3 class="window-box__title">Bilim</h3>
-                            </a>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 populer-box">
+                        <figure class="populer__img">
+                            <img src="/img/populer/populer6.png" alt="POPULER-1">
+                        </figure>
+
+                        <span class="populer__title">Spor Gömlek</span>
+                        <span class="populer__color">(Sarı-Mavi)</span>
+                        <span class="populer__price">89,99 TL</span>
+
+                        <a href="https://www.trendyol.com/guncel-giyim/erkek-lacivert-hardal-cizgili-oduncu-gomlegi-p-68778002?boutiqueId=541542&merchantId=197714" class="price" target="_blank" rel="noopener noreferrer">
+                            Satın Al
+                        </a>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="window-box box-three">
-                            <a class="box-link" href="#">
-                                <h3 class="window-box__title">Diğer</h3>
-                            </a>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 populer-box">
+                        <figure class="populer__img">
+                            <img src="/img/populer/populer7.png" alt="POPULER-1">
+                        </figure>
+
+                        <span class="populer__title">Siyah Mont</span>
+                        <span class="populer__color">(Siyah)</span>
+                        <span class="populer__price">159,99 TL</span>
+
+                        <a href="https://www.trendyol.com/guncel-giyim/sisme-deri-mont-p-73972934?boutiqueId=547092&merchantId=197714" class="price" target="_blank" rel="noopener noreferrer">
+                            Satın Al
+                        </a>
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <div class="window-box box-fore">
-                            <a class="box-link" href="#">
-                                <h3 class="window-box__title">Güvenlik</h3>
-                            </a>
-                        </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 populer-box">
+                        <figure class="populer__img">
+                            <img src="/img/populer/populer8.png" alt="POPULER-1">
+                        </figure>
+
+                        <span class="populer__title">Siyah Polar</span>
+                        <span class="populer__color">(Siyah)</span>
+                        <span class="populer__price">109,99 TL</span>
+
+                        <a href="https://www.trendyol.com/guncel-giyim/erkek-siyah-polar-hirka-p-73483401?boutiqueId=547092&merchantId=197714" class="price" target="_blank" rel="noopener noreferrer">
+                            Satın Al
+                        </a>
                     </div>
+
+                    
 
                 </div>
             </div>
         </section>
 
-        <section class="content">
+        <section class="discount">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="content__title">Değişen dünya</h2>
-                        <h3 class="content__desc">Sen neresindesin?</h3>
-                        <a class="content__link" href="#">Daha fazla oku</a>
-                        <div class="content-box">
-                            <img class="content__img" src="/img/content.png" alt="EARTH">
-                        </div>
+                        <h2 class="discount__title">Gömleklerde %15 indirimi kaçırma</h2>
+                        <a href="#" class="button">İncele</a>
                     </div>
                 </div>
             </div>
@@ -121,65 +177,37 @@
 
     </main>
 
-<footer class="bg-light text-center text-lg-start footer">
-    <div class="container p-4">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Footer</h5>
-  
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-            voluptatem veniam, est atque cumque eum delectus sint!
-          </p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-box">
+
+                <span class="header__logo">GÜNCEL</span>
+
+                <span class="footer__desc">Whatsapp: 0599 999 99 99</span>
+
+                <div class="footer__social-media">
+                    <a class="footer__items" href="#" style="text-decoration: none;">
+                        <img src="/img/social-media/whatsapp.png" alt="Whatsapp" height="30" width="30">
+                    </a>
+
+                    <a class="footer__items" href="#" style="text-decoration: none;">
+                        <img  src="/img/social-media/instagram.png" alt="Instagram" height="30" width="30">
+                    </a>
+
+                    <a class="footer__items" href="#" style="text-decoration: none;">
+                        <img  src="/img/social-media/google-plus.png" alt="Gmail" height="30" width="30">
+                    </a>
+
+                    <a class="footer__items" href="#" style="text-decoration: none;">
+                        <img src="/img/social-media/youtube.png" alt="Youtube" height="30" width="30">
+                    </a>
+                </div>
+
+            </div>
         </div>
+    </footer>
 
 
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Sosyal Medya</h5>
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="https://www.linkedin.com/in/mehmetserifpasa/" class="text-dark">Linkedin</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UC3UtP95EZDsuNHcG3VKReiA" class="text-dark">Youtube</a>
-            </li>
-            <li>
-              <a href="#" class="text-dark">Twitter</a>
-            </li>
-            <li>
-              <a href="#" class="text-dark">instagram</a>
-            </li>
-          </ul>
-        </div>
-
-
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-0">Links</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-dark">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-dark">Link 4</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2021 Copyright
-    </div>
-
-  </footer>
+<script src="js/main.js"></script>
 </body>
 </html>

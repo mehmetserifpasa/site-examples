@@ -1,0 +1,542 @@
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bodoni Moda', serif;
+}
+
+:root {
+    --nav-color: #141414;
+    --logo-color: #141414cb;
+}
+
+.button {
+    background-color: #ffffffcc;
+    color: #000000b9;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.658);
+    text-decoration: none;
+
+
+    &:hover {
+        background-color: #3a5a40;
+        color: white;
+        transition: 400ms;
+    }
+}
+
+.price {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: rgb(226, 226, 226);
+    font-weight: 700;
+    transition: 200ms;
+    padding: 10px 20px;
+
+
+    &:hover {
+        background-color: #6b9080;
+        color: rgb(255, 255, 255);
+        transition: 200ms;
+    }
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+
+
+    &__logo {
+        letter-spacing: 4px;
+        font-size: 25px;
+        color: var(--logo-color);
+        font-weight: 700;
+
+        &:hover {
+            color:  #3a3a3a;
+            transition: 300ms;
+        }
+    }
+
+    .nav {
+
+        &__items {
+            text-decoration: none;
+            color: var(--nav-color);
+            font-weight: 400;
+            font-size: 16px;
+
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+
+            &:hover {
+                color: rgb(109, 107, 107);
+                transition: 300ms;
+            }
+        }
+    }
+    
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 600px;    
+    background-image: url('/img/hero3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 15px;
+        color: #ffffff;
+        z-index: 2;
+        
+
+        &--two {
+            font-size: 18px;
+            font-weight: 400;
+            padding-bottom: 45px;
+            color: #ffffff;
+        }
+
+        &--main {
+            font-size: 30px;
+            font-weight: 700;
+            padding-bottom: 15px;
+            color: #ffffff;
+        }
+    }
+
+    .button {
+        padding: 10px 10px;
+    }
+
+
+}
+
+.section-title {
+    
+    .s-title__title {
+        text-align: center;
+        font-size: 25px;
+        color: #252525;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .s-title__desc {
+        font-size: 20px;
+        color: #252525;
+        font-weight: 400;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.bottom-height {
+    margin-bottom: 50px;
+}
+
+.redirect {
+    margin-bottom: 100px;
+
+    .redirect-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redirect-loc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:first-child {
+            margin-bottom: 20px;
+        }
+    }
+
+    .button {
+        font-size: 25px;
+        background-color: unset;
+        border: 2px solid #ffffffc0;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #eaf4f4;
+            color: rgba(0, 0, 0, 0.795);
+        }
+    }
+    
+
+    .redirect-one {
+        background-image: url('/img/redirect/gomlek.jpg');
+        background-size: cover;
+        min-height: 350px;
+        
+    }
+
+    .redirect-two {
+        background-image: url('/img/redirect/pantolon.jpg');
+        background-size: cover;
+        min-height: 350px;
+    }
+
+    .redirec-three {
+        background-image: url('/img/redirect/mont.jpg');
+        background-size: cover;
+        min-height: 350px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px; 
+    }
+
+    .redirect-fore {
+        background-image: url('/img/redirect/sweatshirt.jpg');
+        background-size: cover;
+        min-height: 350px;
+    }
+
+    .redirect-five {
+        background-image: url('/img/redirect/corap.jpg');
+        background-size: cover;
+        min-height: 350px;
+    }
+
+    
+}
+
+.populer {
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 0px 0px;
+    position: relative;
+    background-color: #f3f3f1cb;
+
+    .populer-box {
+        text-align: center;
+    }
+
+    .populer-box:not(:first-child) {
+        margin-top: 40px;
+    }
+
+
+    &__img {
+        max-width: 320px;
+        margin: auto;
+        padding-bottom: 20px;
+
+        img {
+            width: 100%;
+            height: 400px;
+            box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.548);
+
+        }
+    }
+
+    &__title {
+        font-size: 25px;
+        display: block;
+        padding-bottom: 2px;
+        font-weight: 700;
+    }
+
+    &__color {
+        display: block;
+        font-size: 15px;
+        color: rgba(36, 36, 36, 0.842);
+        padding-bottom: 2px;
+    }
+
+    &__price {
+        display: block;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+}
+
+.discount {
+    background-image: url('/img/discount/dis5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+
+    &__title {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: rgba(26, 26, 26, 0.938);
+    }
+
+    .button {
+        padding: 10px 40px;
+    }
+}
+
+.footer {
+    padding: 10px 0px;
+
+    .header__logo {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__desc {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.815);
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    &__items:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+
+
+@media screen and(min-width:768px){
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        
+
+        &__logo {
+
+            font-size: 33px;
+        }
+    }
+
+    .hero {
+        min-height: 800px;
+        position: relative;
+        
+        &__title {
+            font-size: 30px;
+            color: rgb(235, 232, 232);
+    
+            &--two {
+                font-size: 23px;
+                color: rgb(235, 232, 232);
+
+            }
+    
+            &--main {
+                font-size: 70px;
+                color: rgb(235, 232, 232);
+
+            }
+        }
+
+        .button {
+            padding: 15px 20px;
+
+        }
+    }
+
+    .redirect {
+
+        .redirec-three {
+            background-image: url('/img/redirect/mont-md.jpg');
+            background-size: cover;
+        }
+
+        .redirect-fore {
+            background-image: url('/img/redirect/sweatshirt-md.jpg');
+            
+        }
+
+        .scale {
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 300ms;
+            }
+
+            box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.548);
+        }
+    }
+
+    .populer {
+        text-align: unset;
+
+        .populer-box {
+            margin: 40px 0px;
+        }
+
+        .price {
+            margin-bottom: 50px;
+        }
+
+    }
+
+    .button {
+        padding: 20px 40px;
+    }
+
+    .section-title {
+        .s-title__title {
+            font-size: 40px;
+
+        }
+    }
+
+    .discount {
+        min-height: 600px;
+        padding-bottom: 50px;
+
+        &__title {
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+    
+        .button {
+            padding: 20px 60px;
+            font-size: 25px;
+        }
+    }
+
+    .footer {
+        .footer-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center; 
+        }
+
+        .header__logo {
+            margin-bottom: 0;
+            font-size: 25px;
+        }
+
+        &__desc {
+            margin-bottom: 0px;
+            font-size: 15px;
+        }
+    }
+
+}
+
+@media screen and(min-width:992px){
+    
+    .hero {
+        
+        &__title {
+            font-size: 29px;
+    
+            &--two {
+                font-size: 29px;
+            }
+    
+            &--main {
+                font-size: 70px;
+            }
+        }
+    }
+
+    .redirect {
+
+        .redirec-three {
+            margin: 0px 5px;
+        }
+
+        .button {
+            font-size: 20px;
+        }
+    }
+
+    .redirect {
+
+        .redirec-three {
+            background-image: url('/img/redirect/mont.jpg');
+            background-size: cover;
+        }
+
+        .redirect-fore {
+            background-image: url('/img/redirect/sweatshirt.jpg');
+        }
+    }
+
+    .populer {
+
+        padding: 0px 100px;
+
+
+        &__img {
+
+            img {
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 350ms;
+
+                }
+            }
+        }
+    }
+
+    .discount {
+
+        &__title {
+            font-size: 40px;
+        }
+    }
+
+    
+}
+
+@media screen and(min-width:1200px){
+    .redirect {
+
+        .redirec-three {
+            margin: 0px 20px;
+        }
+    }
+
+
+    .discount {
+
+        &__title {
+            font-size: 60px;
+        }
+    }
+
+
+
+ 
+}
