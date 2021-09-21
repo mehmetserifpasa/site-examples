@@ -1,0 +1,236 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.header {
+  margin-top: 20px;
+  background-color: #000116c7;
+  padding: 10px 0px;
+}
+
+.header .nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.header .nav__item {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 25px;
+  letter-spacing: 2px;
+}
+
+.header .nav__item:hover {
+  color: #8ad0e7;
+}
+
+.header .message__item {
+  width: 35px;
+  height: 35px;
+}
+
+.header .message a:not(:last-child) {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.hero .card {
+  min-height: 400px;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.hero .card-discount::before {
+  content: "-%10";
+  position: absolute;
+  background-color: rgba(255, 1, 1, 0.76);
+  width: 65px;
+  height: 65px;
+  top: 5px;
+  left: 5px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-radius: 100%;
+}
+
+.hero .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  z-index: 1;
+}
+
+.hero .cardDesc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.384);
+  padding: 2px 25px;
+}
+
+.hero .cardDesc__label {
+  color: rgba(255, 255, 255, 0.562);
+  font-size: 14px;
+}
+
+.hero .cardDesc__title {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero .cardDesc__price {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero .cardDesc span {
+  display: block;
+}
+
+.hero .card-1 {
+  background-image: url(../img/card/card-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-2 {
+  background-image: url(../img/card/card-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-3 {
+  background-image: url(../img/card/card-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-4 {
+  background-image: url(../img/card/card-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-5 {
+  background-image: url(../img/card/card-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-6 {
+  background-image: url(../img/card/card-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.hero .card-7 {
+  background-image: url(../img/card/card-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.contact {
+  position: fixed;
+  content: "";
+  bottom: 0;
+  right: 10px;
+  width: 30%;
+  height: 60%;
+  background-color: white;
+  background-color: #00001A;
+  z-index: 1;
+  border: 1px solid black;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.contact .contactClose {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.contact .contact-header {
+  width: 100%;
+  height: 100px;
+}
+
+.contact .contact-header__title {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact .contactForm {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.contact .contactForm__mail {
+  padding: 10px 5px;
+  color: rgba(0, 0, 0, 0.589);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact .contactForm__desc {
+  width: 100%;
+  padding: 5px 5px;
+  height: 200px;
+}
+
+.contact .contactForm__button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #a126a5af;
+  border: 0px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
